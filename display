@@ -1,5 +1,0 @@
-@model byte[]
-
-  <div style="width: 875px;">
-    <object id="previewPdf" data="data:application/pdf;base64,@Convert.ToBase64String(Model)" style="overflow: visible;"/>
-  </div>
